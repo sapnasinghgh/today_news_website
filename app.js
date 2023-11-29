@@ -21,7 +21,7 @@ const type = document.querySelector(".searchtype")
 
     const divs = document.createElement("div")
     divs.classList.add("card")
-    carddata.appendChild(divs)
+    carddata.appendChild(app.js/divs)
 
     divs.innerHTML = `
      <img src="${article.urlToImage}" alt="">
